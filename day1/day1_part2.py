@@ -13,7 +13,7 @@ with open("input.txt") as f:
     arr = [line.strip() for line in f]
 dial = 50
 cnt = 0
-
+#lll
 for move in arr:
     num = int(move[1:])
     if move[0] == "L":
